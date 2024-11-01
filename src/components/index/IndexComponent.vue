@@ -14,7 +14,7 @@
     <!-- Sección de video introductorio -->
     <div class="text-center my-5">
       <div>
-    <h1 class="text-center">Asi practican nuestros Aprendices</h1>
+    <h1 class="text-center">Así practican nuestros Aprendices</h1>
     <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
       <!-- Indicadores del carrusel -->
       <div class="carousel-indicators">
@@ -151,10 +151,25 @@ export default {
 
 <style scoped>
 .carousel {
-  text-align: center;
-  position: relative;
+  max-width: 640px;
+  margin: auto;
 }
 
+.video-container {
+  width: 640px; /* Ancho fijo */
+  height: 360px; /* Alto fijo */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black; /* Fondo para vídeos más pequeños */
+}
+
+video {
+  width: 70%;
+  height: 10%;
+  object-fit: cover; /* Mantiene la relación de aspecto y llena el contenedor */
+}
 .controls {
   display: flex;
   justify-content: center;
