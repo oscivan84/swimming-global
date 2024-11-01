@@ -14,7 +14,7 @@
     <!-- Sección de video introductorio -->
     <div class="text-center my-5">
       <div>
-    <h1 class="text-center">Carrusel de Videos</h1>
+    <h1 class="text-center">Asi practican nuestros Aprendices</h1>
     <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
       <!-- Indicadores del carrusel -->
       <div class="carousel-indicators">
